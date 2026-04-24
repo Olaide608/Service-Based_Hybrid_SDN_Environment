@@ -25,3 +25,5 @@ As OpenFlow switches, the Open vSwitches require an SDN controller. The controll
 
 The entire lab is built and tested in GNS3, which provides the simulation environment for connecting the routers, Open vSwitches, and controller. Through this setup, the project demonstrates how traditional networking and SDN can work together in a hybrid model.
 Overall, this project follows a service-based hybrid SDN approach because SDN is not used to replace the whole network. Instead, it is added as a programmable service layer to support selected MPLS operations, while the traditional network continues to provide stable routing and connectivity.
+
+<img width="1672" height="941" alt="PrOJECT PROCESS" src="https://github.com/user-attachments/assets/dd7c5420-31d8-406c-9924-a067c178700f" />
