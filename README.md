@@ -34,11 +34,9 @@ The image below confirms that the Open vSwitches were discovered through LLDP, e
 
 <img width="450" height="211" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
 
-
 Subsequently, the command below was executed on the switch to verify its connection to the OpenDaylight controller:
 
 <img width="348" height="211" alt="Screenshot 2026-04-26 103103" src="https://github.com/user-attachments/assets/1b344edc-cad5-4004-921a-370ef9a1eee9" />
-
 
 This shows the flow rule injected through OpenFlow Manager on OVS1 to match incoming IP packets and encapsulate them with an MPLS label before forwarding them toward OVS2.
 
