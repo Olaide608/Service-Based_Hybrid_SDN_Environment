@@ -30,5 +30,8 @@ Overall, this project follows a service-based hybrid SDN approach because SDN is
 
 # Flow Injection
 
+The image below confirms that the Open vSwitches have been successfully connected to the OpenDaylight controller.
 <img width="1913" height="940" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
+
+Subsequently, the command below was executed on the switch to verify its connection to the OpenDaylight controller.
 <img width="348" height="211" alt="Screenshot 2026-04-26 103103" src="https://github.com/user-attachments/assets/1b344edc-cad5-4004-921a-370ef9a1eee9" />
