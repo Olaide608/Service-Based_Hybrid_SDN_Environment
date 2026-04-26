@@ -30,7 +30,7 @@ Overall, this project follows a service-based hybrid SDN approach because SDN is
 
 # Flow Injection
 
-The image below confirms that the Open vSwitches have been successfully connected to the OpenDaylight controller.
+The image below confirms that the Open vSwitches were discovered through LLDP, enabling the OpenDaylight controller to identify and display the network topology.
 
 <img width="450" height="211" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
 
