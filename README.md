@@ -32,7 +32,7 @@ Overall, this project follows a service-based hybrid SDN approach because SDN is
 
 The image below confirms that the Open vSwitches have been successfully connected to the OpenDaylight controller.
 
-<img width="450" height="350" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
+<img width="348" height="350" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
 
 Subsequently, the command below was executed on the switch to verify its connection to the OpenDaylight controller.
 
