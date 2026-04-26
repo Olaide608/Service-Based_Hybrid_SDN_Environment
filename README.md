@@ -38,21 +38,23 @@ Subsequently, the command below was executed on the switch to verify its connect
 
 <img width="348" height="211" alt="Screenshot 2026-04-26 103103" src="https://github.com/user-attachments/assets/1b344edc-cad5-4004-921a-370ef9a1eee9" />
 
-This shows the flow rule injected through OpenFlow Manager on OVS1 to match incoming IP packets and encapsulate them with an MPLS label before forwarding them toward OVS2.
+This shows the flow rule injected through OpenFlow Manager on OVS1 to match incoming IP packets and encapsulate them with an MPLS label before forwarding them toward OVS2:
 
 <img width="1672" height="941" alt="Screenshot 2026-04-05 1254521" src="https://github.com/user-attachments/assets/e46bafb4-5759-48c4-9b03-7a99533351a1" />
 
-This shows the flow rule injected through OpenFlow Manager on OVS2 to match incoming MPLS packets, pop the MPLS label, and decapsulate them into IP packets before forwarding them to router 2.
+This shows the flow rule injected through OpenFlow Manager on OVS2 to match incoming MPLS packets, pop the MPLS label, and decapsulate them into IP packets before forwarding them to router 2:
 
 <img width="1647" height="941" alt="Screenshot 2026-04-05 1249231" src="https://github.com/user-attachments/assets/5b7ae9b3-db54-4765-a854-971a4f17df60" />
 
 # Data Plane Verification Using Wireshark
 
-This Wireshark trace confirms MPLS encapsulation during the ping test from Router 1 to Router 2, showing that OVS1 pushed the MPLS label onto the IP packet before forwarding it toward OVS2.
+This Wireshark trace confirms MPLS encapsulation during the ping test from Router 1 to Router 2, showing that OVS1 pushed the MPLS label onto the IP packet before forwarding it toward OVS2:
 
 <img width="1096" height="552" alt="Screenshot 2026-04-06 175808" src="https://github.com/user-attachments/assets/09eec17b-6daa-4e63-ba8a-1af6ead878e0" />
 
-This Wireshark trace confirms the reverse traffic flow, showing MPLS encapsulation during the ping test from Router 2 to Router 1. In this direction, OVS2 pushed the MPLS label onto the IP packet before forwarding it toward OVS1.
+
+
+This Wireshark trace confirms the reverse traffic flow, showing MPLS encapsulation during the ping test from Router 2 to Router 1. In this direction, OVS2 pushed the MPLS label onto the IP packet before forwarding it toward OVS1:
 
 <img width="1096" height="552" alt="Screenshot 2026-04-06 175929" src="https://github.com/user-attachments/assets/db4f7ced-150e-49fe-9bc1-00901f5a4af0" />
 
