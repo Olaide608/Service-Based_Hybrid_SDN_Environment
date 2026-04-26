@@ -46,6 +46,11 @@ This shows the flow rule injected through OpenFlow Manager on OVS2 to match inco
 
 <img width="1647" height="941" alt="Screenshot 2026-04-05 1249231" src="https://github.com/user-attachments/assets/5b7ae9b3-db54-4765-a854-971a4f17df60" />
 
+# Data Plane Verification Using Wireshark
+
+<img width="1096" height="552" alt="Screenshot 2026-04-06 175808" src="https://github.com/user-attachments/assets/09eec17b-6daa-4e63-ba8a-1af6ead878e0" />
+
+
 
 
 
